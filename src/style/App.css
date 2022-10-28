@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    background-color: rgb(240, 240, 238);
+}
+
+section{
+    min-height: 100vh;
+}
+
+.itemContainer{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    text-align: center;
+
+    margin: 50px 100px;
+}
+
+.itemContainer li{
+    flex: 0 0 20%;
+    background-color: white;
+    color:rgb(78, 175, 172);
+    border-radius: 20px;
+    margin: 8px 10px;
+    padding: 5px 10px;
+}
+
+.itemContainer li p{
+    color:rgb(97, 110, 112);
+}
+
+.buttonContainer {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 100px;
+}
+
+.buttonContainer li button{
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin: 5px;
+    background-color: #90e3c9;
+    border-radius: 20px;
+    border: none;
+    cursor:pointer;
+
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+
+.allButton {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin: 5px;
+    background-color: #fdc983;
+    border-radius: 20px;
+    border: none;
+    cursor:pointer;
+
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+
+.buttonContainer li button:hover{
+    background-color: #53baaa;
+}
+
+.allButton:hover{
+    background-color: #ec9c63;
+}
